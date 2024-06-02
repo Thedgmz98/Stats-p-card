@@ -6,35 +6,6 @@ main {
   height: 100vh;
   display: flex;
   color: white;
-  /* Cambia las siguientes lineas para experimentar?*/
   align-items: center;
   justify-content: center;
-}
-.card {
-  display: grid;
-  grid-template-columns: 50vh 50vh;
-  border: solid;
-  width: 150vh;
-  height: 50vh;
-  background-color: hsl(244, 38%, 16%);
-  border-radius: 10px;
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-}
-.title {
-  font-size: 100px;
-  font-family: "Lexend Deca", sans-serif;
-  padding-top: 5vh;
-  padding-left: 70px;
-  font-size: x-large;
-}
-
-.pg1 {
-    padding-left: 70px;
-    font-size:small;
-  font-family: "Inter", sans-serif;
 }
