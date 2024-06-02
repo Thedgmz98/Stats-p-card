@@ -1,12 +1,13 @@
 body {
   background-color: hsl(233, 47%, 7%);
+  overflow: hidden;
 }
 
 main {
   height: 100vh;
   display: flex;
   color: white;
-  border: solid white;
+
 }
 
 section {
