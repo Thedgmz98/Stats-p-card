@@ -39,21 +39,21 @@ h1 {
   display: flex;
 }
 p {
-  padding-left: 60px;
+  padding-left: 66px;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "slnt" 0;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 25px;
   color: hsla(0, 0%, 100%, 0.75);
 }
 
 .stats{
   box-sizing: border-box;
   display: flex;
-  padding-left: 20px;
+  padding-left: 25px;
   padding-top: 30px;
 }
 ul, li{
@@ -68,7 +68,7 @@ ul, li{
 .mini{
   box-sizing: border-box;
   display: flex;
-  padding-left: 20px;
+  padding-left: 25px;
 }
 .xd, .small{
   box-sizing: border-box;
