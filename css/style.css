@@ -7,7 +7,6 @@ main {
   height: 100vh;
   display: flex;
   color: white;
-
 }
 
 section {
@@ -50,14 +49,15 @@ p {
   color: hsla(0, 0%, 100%, 0.75);
 }
 
-.stats{
+.stats {
   box-sizing: border-box;
   display: flex;
   padding-left: 25px;
   padding-top: 30px;
 }
-ul, li{
-  list-style:none;
+ul,
+li {
+  list-style: none;
   display: inline-flex;
   gap: 60px;
   font-weight: bold;
@@ -65,41 +65,89 @@ ul, li{
   font-family: "Inter", sans-serif;
 }
 
-.mini{
+.mini {
   box-sizing: border-box;
   display: flex;
   padding-left: 25px;
 }
-.xd, .small{
+.xd,
+.small {
   box-sizing: border-box;
-font-size: 10px;
-font-weight:normal;
-font-family: "Inter", sans-serif;
-color: hsla(0, 0%, 100%, 0.75);
-position: relative;
-gap: 45px;
-bottom: 12px;
+  font-size: 10px;
+  font-weight: normal;
+  font-family: "Inter", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  position: relative;
+  gap: 45px;
+  bottom: 12px;
 }
 
-.picture{
+.picture {
   box-sizing: border-box;
   display: flex;
   justify-content: right;
-  filter: grayscale(100%) sepia(1) hue-rotate(597deg) saturate(3) brightness(0.7);
-
+  filter: grayscale(100%) sepia(1) hue-rotate(597deg) saturate(3)
+    brightness(0.7);
 }
 
-.people{
-width: 540px;
-height: 430px;
-padding-left: 120px;
-border-top-right-radius: 10px;
-border-bottom-right-radius: 10px;
+.people {
+  width: 540px;
+  height: 430px;
+  padding-left: 120px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
-.picture::after{
+.picture::after {
   background-color: hsl(277, 64%, 61%);
   mix-blend-mode: screen;
   opacity: 0.7;
   pointer-events: none;
+}
+
+@media (max-width: 400px) {
+  body {
+    overflow: auto;
+  }
+
+  main {
+    height: 250vh;
+    display: flex;
+    color: white;
+  }
+
+  section {
+    background-color: hsl(244, 38%, 16%);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 350px;
+    height: 800px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .tittle {
+    box-sizing: border-box;
+    display: flex;
+  }
+
+  h1 {
+    font-size: 25px;
+    padding-left: 40px;
+  }
+
+  p {
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 13px;
+    line-height: 25px;
+    color: hsla(0, 0%, 100%, 0.75);
+  }
+  
 }
