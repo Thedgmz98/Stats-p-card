@@ -106,7 +106,7 @@ li {
   }
 
   main {
-    height: 180vh;
+    height: 200vh;
     display: flex;
     color: white;
   }
@@ -190,14 +190,16 @@ li {
     box-sizing: border-box;
     display: flex;
     position: relative;
-    bottom: 1000px;
+    bottom: 1040px;
     filter: grayscale(100%) sepia(1) hue-rotate(597deg) saturate(3)
       brightness(0.7);
+   
   }
 
   .people {
+    border-top-left-radius: 10px;
     box-sizing: border-box;
-    width: 340px;
-    height: 330px;
+    width: 470px;
+    height: 290px;
   }
 }
